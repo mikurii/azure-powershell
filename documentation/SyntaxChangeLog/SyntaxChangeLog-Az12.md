@@ -1,3 +1,38 @@
+## 12.3.0 - September 2024
+#### Az.Compute 8.3.0 
+* Modified cmdlet `Get-AzCapacityReservationGroup`
+   - Added parameter `-ResourceIdsOnly`
+* Modified cmdlet `Remove-AzVMDataDisk`
+   - Added parameter `-ForceDetach`
+#### Az.DevCenter 1.2.0 
+* Modified cmdlet `New-AzDevCenterAdminCatalog`
+   - Added parameters `-SyncType`, `-Tag`
+* Modified cmdlet `New-AzDevCenterAdminDevCenter`
+   - Added parameters `-DevBoxProvisioningSettingInstallAzureMonitorAgentEnableStatus`, `-NetworkSettingMicrosoftHostedNetworkEnableStatus`, `-PlanId`, `-ProjectCatalogSettingCatalogItemSyncEnableStatus`
+* Modified cmdlet `New-AzDevCenterAdminPool`
+   - Added parameters `-StopOnDisconnectGracePeriodMinute`, `-StopOnDisconnectStatus`
+* Modified cmdlet `New-AzDevCenterAdminProject`
+   - Added parameters `-CatalogSettingCatalogItemSyncType`, `-IdentityType`, `-IdentityUserAssignedIdentity`
+* Modified cmdlet `New-AzDevCenterAdminProjectEnvironmentType`
+   - Added parameter `-DisplayName`
+* Modified cmdlet `Update-AzDevCenterAdminDevCenter`
+   - Added parameters `-DevBoxProvisioningSettingInstallAzureMonitorAgentEnableStatus`, `-NetworkSettingMicrosoftHostedNetworkEnableStatus`, `-PlanId`, `-ProjectCatalogSettingCatalogItemSyncEnableStatus`
+* Modified cmdlet `Update-AzDevCenterAdminProject`
+   - Added parameters `-CatalogSettingCatalogItemSyncType`, `-IdentityType`, `-IdentityUserAssignedIdentity`
+* Modified cmdlet `Update-AzDevCenterAdminProjectEnvironmentType`
+   - Added parameter `-DisplayName`
+* Added cmdlet `Connect-AzDevCenterAdminCatalog`, `Connect-AzDevCenterAdminProjectCatalog`, `Get-AzDevCenterAdminCustomizationTask`, `Get-AzDevCenterAdminCustomizationTaskErrorDetail`, `Get-AzDevCenterAdminPlan`, `Get-AzDevCenterAdminPlanMember`, `Get-AzDevCenterAdminProjectCatalog`, `Get-AzDevCenterAdminProjectCatalogSyncErrorDetail`, `Get-AzDevCenterAdminProjectEnvironmentDefinition`, `Get-AzDevCenterAdminProjectEnvironmentDefinitionErrorDetail`, `Get-AzDevCenterAdminProjectInheritedSetting`, `Invoke-AzDevCenterAdminExecuteCheckScopedNameAvailability`, `New-AzDevCenterAdminPlan`, `New-AzDevCenterAdminPlanMember`, `New-AzDevCenterAdminProjectCatalog`, `Remove-AzDevCenterAdminPlan`, `Remove-AzDevCenterAdminPlanMember`, `Remove-AzDevCenterAdminProjectCatalog`, `Sync-AzDevCenterAdminProjectCatalog`, `Update-AzDevCenterAdminPlan`, `Update-AzDevCenterAdminPlanMember`, `Update-AzDevCenterAdminProjectCatalog`
+#### Az.Resources 7.4.0 
+* Modified cmdlet `Remove-AzResourceGroup`
+   - Added parameter `-ForceDeletionType`
+#### Az.Security 1.7.0 
+* Added cmdlet `Get-AzSecurityDefenderForStorage`, `Update-AzSecurityDefenderForStorage`
+#### Az.Sql 5.3.0 
+* Modified cmdlet `New-AzSqlInstance`
+   - Added parameter `-AuthenticationMetadata`
+* Modified cmdlet `Set-AzSqlInstance`
+   - Added parameter `-AuthenticationMetadata`
+
 ## 12.2.0 - August 2024
 #### Az.Compute 8.2.0 
 * Modified cmdlet `New-AzRestorePointCollection`
@@ -931,6 +966,7 @@
    - Changed the type of parameter `-Status` from `Status` to `String`
    - Output type changed from ``PSSupportTicket`` to ``ISupportTicketDetails``
 * Added cmdlet `Get-AzSupportChatTranscript`, `Get-AzSupportChatTranscriptsNoSubscription`, `Get-AzSupportCommunication`, `Get-AzSupportCommunicationsNoSubscription`, `Get-AzSupportFile`, `Get-AzSupportFilesNoSubscription`, `Get-AzSupportFileWorkspace`, `Get-AzSupportFileWorkspacesNoSubscription`, `Get-AzSupportOperation`, `Get-AzSupportTicketsNoSubscription`, `New-AzSupportCommunication`, `New-AzSupportCommunicationsNoSubscription`, `New-AzSupportFileAndUpload`, `New-AzSupportFileAndUploadNoSubscription`, `New-AzSupportFileWorkspace`, `New-AzSupportFileWorkspacesNoSubscription`, `New-AzSupportTicketsNoSubscription`, `Test-AzSupportCommunicationNameAvailability`, `Test-AzSupportCommunicationsNoSubscriptionNameAvailability`, `Test-AzSupportTicketNameAvailability`, `Test-AzSupportTicketsNoSubscriptionNameAvailability`, `Update-AzSupportTicketsNoSubscription`
+
 
 
 
